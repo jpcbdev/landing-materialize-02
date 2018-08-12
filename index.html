@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Butterfly</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Materialize and Fontaewasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- Nav -->
+    <nav class="nav grey darken-4 z-depth-2">
+
+        <div class="nav-wrapper">
+
+            <div class="row">
+
+                <div class="col l1 m1 s1 circle">
+                    <a href="#"></a>
+                    <i class="fas fa-gift"></i>
+                </div>
+
+                <ul id="nav-mobile" class="col l6 offset-l3 hide-on-med-and-down">
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre nosotros</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Equipo de trabajo</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="col l2 hide-on-med-and-down">
+                    <a class="waves-effect waves-light btn-small">Suscríbete</a>
+                </div>
+
+                <ul id="slide-out" class="sidenav">
+                    <li>
+                        <div class="user-view">
+                            <div class="background">
+                                <img src="img/logo2.jpg">
+                            </div>
+                            <a href="#user">
+                                <img class="circle" src="img/team1.jpg">
+                            </a>
+                            <a href="#name">
+                                <span class="white-text name">Carmen Gonzales</span>
+                            </a>
+                            <a href="#email">
+                                <span class="white-text email">butterfly@gmail.com</span>
+                            </a>
+                        </div>
+                    </li>
+
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre nosotros</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Equipo de trabajo</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+
+
+
+                </ul>
+
+                <a href="#" data-target="slide-out" class="sidenav-trigger right">
+                    <i class="fas fa-bars fa-2x"></i>
+                </a>
+
+
+            </div>
+
+    </nav>
+
+    <!-- Page about -->
+    <header class="hero">
+
+        <section class="row" id="large-header">
+
+            <canvas id="demo-canvas" class="col l12 m12 s12"></canvas>
+
+            <div class="row hero__about  valign-wrapper center-align">
+
+                <div class="col l4 m12 s12 offset-l1">
+
+                    <div class="row">
+
+                        <div class="col l12 m12 s12 container__border">
+                            <div class="slider ">
+                                <ul class="slides">
+                                    <li>
+                                        <img src="img/carru02.jpg">
+
+                                    </li>
+                                    <li>
+                                        <img src="img/carru03.jpg">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col l4 m12 s12  offset-l2">
+
+                    <div class="row">
+
+                        <div class="col l12 m12 s12">
+                            <div class="card blue-grey darken-1 z-depth-3">
+                                <div class="card-content white-text">
+                                    <span class="card-title">Butterfly</span>
+                                    <img src="img/logo.jpg" alt="logo" class="circle">
+                                    <p> Somos una empresa 100% costarricense que nace en el corazón de Dios, ofrecemos los servicios
+                                        necesarios en la organización de eventos, desarrollo de fiestas y actividades especiales.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+
+    </header>
+
+    <main class="main">
+
+        <!-- Business vision-->
+        <section class="container center-align">
+            <h2>Nuestra visión</h2>
+            <div class="row">
+                <!-- Vision -->
+                <div class="col l6 m12 s12">
+                    <div class="card blue-grey darken-1">
+                        <div class="card-content white-text">
+                            <span class="card-title">Vision de la empresa</span>
+                            <p> Ser una empresa en la cual poder encontrar un asesoramiento personalizado acerca de productos
+                                de calidad al mejor precio del mercado, decoradores profesionales y pequeños empresarios
+                                pueden tener la seguridad de que adquieren justo lo que necesitan.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tabs -->
+                <div class="col l6 m12 s12">
+                    <div class="card blue-grey darken-1">
+
+                        <ul class="tabs z-depth-1">
+                            <li class="tab">
+                                <a href="#test1">Decoración</a>
+                            </li>
+                            <li class="tab">
+                                <a class="active" href="#test2">Suministros</a>
+                            </li>
+                        </ul>
+                        <div id="test1" class="col s12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. </p>
+                        </div>
+                        <div id="test2" class="col s12">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                                labore et dolore magna aliqua. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Slider or carrousel -->
+        <section class="container center-align">
+            <div class="row">
+                <div class="col l12 m12 s12 container__border">
+                    <div class="slider">
+                        <ul class="slides">
+
+                            <li>
+                                <img src="img/carru01.jpg">
+                                <div class="caption center-align">
+                                    <h3>“Amamos lo que hacemos y es una bendición poder ser parte de momentos tan especiales”</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru02.jpg">
+                                <div class="caption center-align">
+                                    <h3>“Trabajamos de corazón para que su día sea único y especial”</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru03.jpg">
+                                <div class="caption center-align">
+                                    <h3>Nuestros servicios incluyen:</h3>
+                                    <h5 class="light grey-text text-lighten-3">Decoración con globos profesional Ambientación con telas Iluminación y más…</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru04.jpg">
+                                <div class="caption center-align">
+                                    <h3> En nosotros pueden encontrar un asesoramiento personalizado acerca de productos de calidad
+                                        al mejor precio del mercado, decoradores profesionales y pequeños empresarios pueden
+                                        tener la seguridad de que adquieren justo lo que necesitan.</h3>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru05.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru06.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru07.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru08.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru09.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru10.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                            <li>
+                                <img src="img/carru11.jpg">
+                                <div class="caption center-align">
+                                    <h3>This is our big Tagline!</h3>
+                                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our team  -->
+        <section class="container center-align">
+
+            <h2>Nuestro equipo</h2>
+
+            <div class="row team__container">
+                <div class="col l4 m4 s12">
+                    <div class="card z-depth-3">
+                        <div class="card-image">
+                            <img src="img/team1.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5>Carmen Gonzales</h5>
+                            <p>Gerente</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l4 m4 s12">
+                    <div class="card z-depth-3">
+                        <div class="card-image">
+                            <img src="img/team2.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5>Milena Rosa</h5>
+                            <p>Promotor de ventas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l4 m4 s12">
+                    <div class="card z-depth-3">
+                        <div class="card-image">
+                            <img src="img/team3.jpg">
+                        </div>
+                        <div class="card-content">
+                            <h5>Emilio Ros</h5>
+                            <p>Asistente decorativa</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Facebook comments -->
+        <section class="container center-align">
+            <h2>Comentarios</h2>
+            <div class="row">
+
+                <div class="col l12 m12 s12">
+                    <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-width="100%"
+                        data-numposts="3"></div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Subcribe -->
+        <section class="container center-align">
+
+            <h2>Suscríbase ahora</h2>
+
+            <div class="row">
+
+                <form class="col l12 m12 s12 ">
+
+                    <div class="row">
+                        <div class="input-field col l6 m6 s6 offset-l3 offset-m3 offset-s3">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                            <span class="helper-text" data-error="wrong" data-success="right">Ingrese su correo</span>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Decoraciones</span>
+                        </label>
+                    </div>
+
+                    <div class="row">
+                        <label>
+                            <input id="indeterminate-checkbox" type="checkbox" />
+                            <span>Suministros</span>
+                        </label>
+                    </div>
+
+
+
+                    <a class=" waves-effect waves-light btn-small red lighten-2">Suscríbase</a>
+                </form>
+            </div>
+
+        </section>
+    </main>
+
+    <!--Footer -->
+    <footer class="page-footer">
+
+        <div class="container">
+
+            <ul class="social__links">
+                <li>
+                    <a class="grey-text text-lighten-3" href="#!">
+                        <i class="fab fa-facebook fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="grey-text text-lighten-3" href="#!">
+                        <i class="fab fa-twitter-square fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="grey-text text-lighten-3" href="#!">
+                        <i class="fab fa-google-plus-square fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a class="grey-text text-lighten-3" href="#!">
+                        <i class="fab fa-youtube-square fa-2x"></i>
+
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="footer-copyright center-align">
+            <div class="container">
+                Butterfly Copyright© 2018
+                <a class="grey-text text-lighten-4 right" href="#!"></a>
+            </div>
+        </div>
+
+    </footer>
+
+    <!-- Materialize scripts -->
+    <script type="text/javascript " src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Animated bg scripts -->
+    <script src="js/TweenLite.min.js"></script>
+    <script src="js/EasePack.min.js"></script>
+    <script src="js/rAF.js"></script>
+    <script src="js/background.js"></script>
+
+    <!-- Facebook comments script-->
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v3.1';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+</html>
